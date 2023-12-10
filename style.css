@@ -99,11 +99,11 @@ section:nth-child(even){
     color: var(--black);
 }
 
-.header .logo{
+.header .logo i{
     color: var(--green);
 }
 
-.header .navbar{
+.header .navbar a{
     font-size: 1.7rem;
     color: var(--light-color);
     margin-left: 2rem;
