@@ -35,7 +35,7 @@
             <h3>MedCare AI -</h3>
             <h3>Your Partner in Wellness</h3>
             <p>Don't wait to see the AI doctor when your body is screaming, listen to it when it whispers</p>
-            <a href="#" class="btn"> Contact us <span class="far fa-address-book"></span></a>
+            <a href="#" id="contact-us-btn" class="btn"> Chat now <span class="far fa-comment-dots"></span></a>
         </div>
     </section>
 
@@ -235,6 +235,16 @@
     <section class="footer">
         <div class="credit"> Created by <span>Group 8 - ML</span> | All rights reserved</div>
     </section>
+    
+    <!-- ChatBox -->
+    <div id="chatbox-modal" class="chatbox-modal">
+        <div class="chatbox-content">
+            <span class="close-btn" onclick="closeChatbox()">&times;</span>
+            <!-- Nội dung ChatBox sẽ được thêm vào đây -->
+            <p>Welcome to MedCare AI! How can we assist you today?</p>
+        </div>
+    </div>
+  
     
     <script src="script.js"></script>
 </body>

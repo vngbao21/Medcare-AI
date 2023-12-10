@@ -11,3 +11,14 @@ window.onscroll = () => {
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
 } 
+
+
+document.getElementById('contact-us-btn').addEventListener('click', openChatbox);
+function openChatbox() {
+    document.getElementById('chatbox-modal').style.display = 'block';
+  }
+  
+function closeChatbox() {
+document.getElementById('chatbox-modal').style.display = 'none';
+}
+  
