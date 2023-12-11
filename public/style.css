@@ -48,6 +48,7 @@ section:nth-child(even){
 .heading span{
     text-transform: uppercase;
     color: var(--green);
+    font-size: 5rem;
 }
 
 .btn{
@@ -101,6 +102,7 @@ section:nth-child(even){
 
 .header .logo i{
     color: var(--green);
+    font-size: 2.5rem;
 }
 
 .header .navbar a{
@@ -145,7 +147,7 @@ section:nth-child(even){
 }
 
 .home .content h3{
-    font-size: 4.5rem;
+    font-size: 4rem;
     color: var(--black);
     line-height: 1.8;
     text-shadow: var(--text-shadow);
@@ -246,7 +248,7 @@ section:nth-child(even){
 .about .row .content h3{
     color: var(--black);
     text-shadow: var(--text-shadow);
-    font-size: 4rem;
+    font-size: 3.5rem;
     line-height: 1.8;
 }
 
@@ -391,52 +393,9 @@ section:nth-child(even){
 
 .footer .credit span{
     color: var(--green);
-
+    font-size: 2rem;
 }
 
-/* Phần tạp khung ChatBox, xấu thì fix */
-.chatbox-modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-  
-.chatbox-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888888;
-    width: 80%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 4px solid var(--green);
-}
-  
-.close-btn {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-  
-.close-btn:hover, .close-btn:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.chatbox-modal .chatbox-content p{
-    color: var(--light-color);
-    font-size: 1.5rem;
-    line-height: 1.8;
-    padding: 1rem 0;
-}
-  
 
 
 
