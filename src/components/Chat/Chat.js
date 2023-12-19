@@ -82,7 +82,7 @@ const Chat = () => {
 
   const handleGreeting = (intro) => {
     if(intro){
-      addObjectToArray("message-left", "Hello there! My Name is Michael-AI... here to assist you with any questions you may have regarding your OpenAI fine-tuning model. ");
+      addObjectToArray("message-left", "Hello there! My Name is Medcare-AI... here to assist you with any questions you may have regarding your OpenAI fine-tuning model. ");
     }
   }
 
