@@ -82,7 +82,7 @@ const Chat = () => {
 
   const handleGreeting = (intro) => {
     if(intro){
-      addObjectToArray("message-left", "Hello there! My Name is Michael-AI... here to assist you with any questions you may have regarding your OpenAI fine-tuning model. ");
+      addObjectToArray("message-left", "Chào mừng bạn đến với dịch vụ MedCare AI. Tôi có thể hỗ trợ bạn những câu hỏi liên quan tới sức khỏe để đưa ra các chẩn đoán.  ");
     }
   }
 
@@ -133,7 +133,7 @@ const Chat = () => {
                 type="text"
                 ref={inputRef}
                 className="question-textbox"
-                placeholder="Ask your question"
+                placeholder="Nhập câu hỏi"
                 onChange={handleInputChange}
                 onKeyDown={handleKeyDown}
               ></input>
