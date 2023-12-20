@@ -50,13 +50,13 @@ const Chat = () => {
             setDivVisible(false);
         }
         else {
-          addObjectToArray("message-left", "That's embarrassing! I did not receive a valid response.");
+          addObjectToArray("message-left", "Thật đáng tiếc! Tôi không nhận được phản hồi hợp lệ");
           setDivVisible(false);
         }
     })
     .catch((error) => {
       //console.log(error);
-      addObjectToArray("message-left", "That's embarrassing! I received an error. Please try your question again.");
+      addObjectToArray("message-left", "Thật đáng tiếc! Tôi đã nhận được một lỗi. Vui lòng thử lại câu hỏi của bạn.");
       setDivVisible(false);
     });
   };
