@@ -2,15 +2,15 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  max-width: 1000px;
-  background-color: black;
+  max-width: 1150px;
+  background-color: #444;
 }
 
 .message-container {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: black;
+    background-color: #444;
     padding-bottom: 75px;
     padding-top: 15px;
     position: relative;
@@ -28,7 +28,7 @@
 
 .message-right {
     align-self: flex-end;
-    max-width: 800px;
+    max-width: 1000px;
     background-color: #0099ff;
     color: white;
     margin: 10px;
@@ -45,9 +45,9 @@
     padding: 10px;
     position: fixed;
     bottom: 0;
-    max-width: 1000px;
+    max-width: 1150px;
     width: 100%;
-    background-color: #0c0b0b;
+    background-color: #303335;
     position: absolute;
   }
   
@@ -58,11 +58,10 @@
   }
 
   .button {
-    background-color: #34d5db0a; /* Màu xanh dương */
-    color: white; /* Màu chữ */
-    /* Các thuộc tính CSS khác tùy ý */
+    background-color: #34d5db0a; 
+    color: white; 
   }
   
   .button:hover {
-    background-color: #d2dadd; /* Màu xanh dương khi di chuột qua */
+    background-color: #d2dadd; 
   }

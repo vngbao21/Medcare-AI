@@ -6,6 +6,34 @@ import { createRoot } from 'react-dom/client';
 const rootNode = document.getElementById('root');
 const root = createRoot(rootNode);
 
-root.render(
-    <App />
-);
+function ChatNow() {
+    const shoot = () => {
+        root.render(<App />);
+    }
+
+    const buttonStyles = {
+        border: '2px solid #16a085',
+        padding: '10px 20px',
+        fontSize: '20px',
+        textAlign: 'center',
+        cursor: 'pointer',
+        borderRadius: '5px',
+        display: 'block',
+        margin: 'auto',
+    };
+
+  
+    const iconStyles = {
+        marginRight: '5px', 
+        fontSize: '20px',
+    };
+
+    return (
+        <button style={buttonStyles} onClick={shoot}>
+            <span style={{ fontWeight: 'bold', fontSize: '20px'}}>Chat now!  </span>
+            <span style={iconStyles} className="far fa-comment-dots"></span>
+        </button>
+    );
+  }
+
+root.render(<ChatNow />);

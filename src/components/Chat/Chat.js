@@ -82,7 +82,7 @@ const Chat = () => {
 
   const handleGreeting = (intro) => {
     if(intro){
-      addObjectToArray("message-left", "Chào mừng bạn đến với dịch vụ MedCare AI. Tôi có thể hỗ trợ bạn những câu hỏi liên quan tới sức khỏe để đưa ra các chẩn đoán.  ");
+      addObjectToArray("message-left", "Chào mừng bạn đến với dịch vụ MedCare AI. Tôi có thể hỗ trợ bạn những câu hỏi liên quan tới sức khỏe để đưa ra các chẩn đoán. ");
     }
   }
 
