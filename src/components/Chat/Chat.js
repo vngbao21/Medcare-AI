@@ -19,9 +19,9 @@ const Chat = () => {
     inputRef.current.focus();
   }, []);
 
-  useEffect(() => {
-    endOfMessagesRef.current?.scrollIntoView({ behavior: "smooth" });
-  }, [chat, isDivVisible]);
+  // useEffect(() => {
+  //   endOfMessagesRef.current?.scrollIntoView({ behavior: "smooth" });
+  // }, [chat, isDivVisible]);
 
   useEffect(() => {
     handleGreeting(true)
