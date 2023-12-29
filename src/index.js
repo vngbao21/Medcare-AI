@@ -30,7 +30,7 @@ function ChatNow() {
 
     return (
         <button style={buttonStyles} onClick={shoot}>
-            <span style={{ fontWeight: 'bold', fontSize: '20px'}}>Chat now!  </span>
+            <span style={{ fontWeight: 'bold', fontSize: '20px'}}>Trò chuyện ngay!  </span>
             <span style={iconStyles} className="far fa-comment-dots"></span>
         </button>
     );
