@@ -10,5 +10,7 @@ npm install
 npm run start
 ```
 
+Note that: This is only for running the web but to host the server for chat you need to contact team members for fine-tuned api key
+
 This demo app will call the API
 (ai-api-demo) https://github.com/msuliot/ai-api-demo
