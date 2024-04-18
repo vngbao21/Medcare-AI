@@ -14,7 +14,7 @@
 **MedCare** aims to:
 - Develop a specialized chatbot in the field of healthcare, specifically for diagnosing illnesses based on descriptions.
 <p align="center">
-  <img src="https://github.com/knightstark7/CarHub-Car-Dealer-Website/blob/main/images/home_page.jpg](https://github.com/vngbao21/Medcare-AI/blob/main/public/image/intro.png" >
+  <img src="https://github.com/vngbao21/Medcare-AI/blob/main/public/image/intro.png" >
 </p>
 
 ## Technical Stack:
@@ -69,4 +69,4 @@ This demo app will call the API
 (ai-api-demo) https://github.com/msuliot/ai-api-demo
 
 ## Demo:
-- Link demo: https://www.youtube.com/watch?v=hpllW2t5fSc
+- Link demo: https://drive.google.com/file/d/1AAO1qa51kD1VCttQj2L_Iyi2DmJs3bH4/view?usp=sharing
