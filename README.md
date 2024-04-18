@@ -31,6 +31,22 @@
   - Use React to create a ChatNow component for flexibility and scalability
   - "Chat Now" button to stimulate user interaction
   - Upon clicking, the application renders or starts the main App for immediate chat interaction
+ 
+## Back-end Features:
+- Flask Server to integrate with OpenAI API, handle requests from the frontend, send requests to OpenAI API, and return results
+- Flask Server listens for HTTP requests on localhost, port 8000
+- React Frontend (Chat Window) contains user interaction logic
+- User inputs a question, and React sends a POST request containing the question to the Flask Server via FetchData
+- Flask Server responds, and the response is processed to update the user interface
+
+## Machine Learning Model:
+
+- Pre-trained Model: GPT-3.5-turbo-0613
+- Description: A large language model developed by OpenAI for natural language processing tasks
+- Features: 1.37B parameters, trained on a vast dataset, capable of text generation, language translation, content creation, and comprehensive question answering
+- Fine-tuning Process:
+  - Fine-tune the pre-trained model on a specific task based on labeled data
+  - Data preprocessing, model parameter optimization, train-validation split, model training, and evaluation
 
 ## Installation
 1. Open up your favorite code editor and from a terminal window run the following
