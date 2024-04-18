@@ -13,6 +13,9 @@
 ## Introduction:
 **MedCare** aims to:
 - Develop a specialized chatbot in the field of healthcare, specifically for diagnosing illnesses based on descriptions.
+<p align="center">
+  <img src="https://github.com/knightstark7/CarHub-Car-Dealer-Website/blob/main/images/home_page.jpg" >
+</p>
 
 ## Technical Stack:
 - Web-app
