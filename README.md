@@ -1,5 +1,5 @@
 # MedCare Chatbot
-## Final Project - Machine Learing - HCMUS
+## Final Project - Machine Learning - HCMUS
 
 ## Member Contributor Information
 | Name              | ID       |
